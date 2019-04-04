@@ -35,9 +35,13 @@
 ```
 
 
-### yarn serve => 启动dev 和 mock 两个命令 如果当前port被占用则会启动失败 需要手动kill port && restart
+### pageage.json script
 
 
-### yarn build => 项目build 到 _next 文件夹
+```
+yarn serve => 启动dev 和 mock 两个命令 如果当前port被占用则会启动失败 需要手动kill port && restart
+
+yarn build => 项目build 到 _next 文件夹
 
   部署方案 pm2 || nginx || now    (相应部分后续补上)
+```
