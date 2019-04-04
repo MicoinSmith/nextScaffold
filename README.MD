@@ -10,14 +10,14 @@
     添加了: [
       Koa: '@/service' 项目启动入口
       mock: '@/mock' 基于express的mock服务器
-      Antd组件: 添加了antd组件库的支持 可以放在
+      Antd组件: 添加了antd组件库的支持 可以依据需要放在components目录下
     ]
   }
 ```
 
 
 ### 封装了axios的 get，post =>  '@/utils/axios' ( by return promise )
- 
+
 
 ```
    {
@@ -26,7 +26,7 @@
    }
 ```
 
-  
+
 ### api 封装具体请求方法
 
 ```
