@@ -1,0 +1,2 @@
+nginx="/usr/local/bin/nginx"
+NGINX_CONF_FILE="/usr/local/etc/nginx/nginx.conf"

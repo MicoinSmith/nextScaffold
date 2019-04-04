@@ -1,0 +1,31 @@
+{
+  "presets": [
+    "next/babel"
+  ],
+  "plugins": [
+    [
+      "module-resolver", {
+      "root": ["."],
+      "alias": {
+        "@": "./"
+      },
+      "cwd": "babelrc"
+    }],
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "style": "css",
+      }
+    ],
+    [
+      "styled-components",
+      {
+        "ssr": true,
+        "displayName": true,
+        "preprocess": true
+      }
+    ]
+  ],
+  "ignore": []
+}
